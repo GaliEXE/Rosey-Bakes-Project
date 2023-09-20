@@ -1,1 +1,43 @@
-
+html {
+	padding: 0px;
+	margin: 0px auto;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	}
+	
+	body {
+	margin: -.5px;
+	}
+	
+	.banner {
+	background-image: url("Banner1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	top: 0px;
+	left: -5px;
+	width:100%;
+	height: 150px;
+	}
+	
+	.TopNav {
+	background: #ffffff;
+	font-size: 32px;
+	border-color: red;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	}
+	
+	.TopNav th {
+	border-color: red;
+	border-right-style: solid;
+	border-left-style: none;
+	padding-right: 364.1px;
+	}
+	
+	.OrdBtn {
+	padding-bottom: 35px;
+	padding-left: 1500px;
+	}
+	
