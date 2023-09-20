@@ -28,6 +28,8 @@ html {
 	border-bottom-style: solid;
 	border-top-style: solid;
 	background-attachment: sticky;
+	top: 0;
+	position: sticky;
 	}
 	
 	.TopNav th {
