@@ -1,26 +1,26 @@
 html {
-	padding: 0px;
-	margin: 0px;
-	height: 100%;
-	width: 100%;
-	overflow-y: scroll;
 	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%
 	}
-
-body {
-	margin: 0px;
+	
+	body {
+	margin: -.5px;
 	width: 100%;
-}
+	height: 100%;
+	min-width: fit-content;
+	}
 	
 	.banner {
-	background-image: url("Banner1.png");
+	background-image: url("photos/Banner1.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	top: 0px;
 	left: -5px;
-	width: 100%;
+	width:100%;
 	height: 150px;
+	z-index: 10;
 	}
 	
 	.TopNav {
@@ -29,9 +29,6 @@ body {
 	border-color: red;
 	border-bottom-style: solid;
 	border-top-style: solid;
-	background-attachment: sticky;
-	top: 0;
-	position: sticky;
 	}
 	
 	.TopNav th {
@@ -45,4 +42,40 @@ body {
 	padding-bottom: 35px;
 	padding-left: 1500px;
 	}
-	
+
+    iframe {
+        width: 640px; 
+        height: 5019px; 
+    }
+
+    .welcomeText {
+        color: black;
+        font-family: "Times New Roman";
+    }
+
+	@media screen and (max-width: 500px){
+		.banner {
+			background-image: url("photos/Banner1.png");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			top: 20px;
+			width:100%;
+			height: 150px;
+			}
+		
+			.TopNav {
+				background: #ffffff;
+				font-size: 16px;
+				border-color: blue;
+				border-bottom-style: solid;
+				border-top-style: solid;
+				}
+
+				.TopNav th {
+					border-color: blue;
+					border-right-style: solid;
+					border-left-style: none;
+					padding-right: 10px;
+					}
+	}
