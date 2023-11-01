@@ -66,13 +66,13 @@ html {
 
     .TopNav {
         font-size: 16px;
-        border-color: blue; /* Change border color to blue */
+        border-color: blue !important; /* Change border color to blue */
         border-bottom-style: solid;
         border-top-style: solid;
     }
 
     .TopNav th {
-        border-color: blue; /* Change border color to blue */
+        border-color: blue !important; /* Change border color to blue */
         border-right-style: solid;
         border-left-style: none;
         padding-right: 10px;
