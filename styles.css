@@ -53,29 +53,27 @@ html {
         font-family: "Times New Roman";
     }
 
-@media only screen and (max-width: 500px) {
-    .banner {
-        background-image: url("photos/Banner1.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        top: 20px;
-        width: 100%;
-        height: 150px;
-    }
-
-    .TopNav {
-        font-size: 16px;
-        border-color: blue !important; /* Change border color to blue */
-        border-bottom-style: solid;
-        border-top-style: solid;
-    }
-
-    .TopNav th {
-        border-color: blue !important; /* Change border color to blue */
-        border-right-style: solid;
-        border-left-style: none;
-        padding-right: 10px;
-    }
-}
+	@media only screen and (max-width: 500px) {
+		.banner {
+			background-image: url("photos/Banner1.png");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			top: 20px;
+			width: 100%;
+			height: 150px;
+		}
+		
+		.TopNav table {
+			border-color: blue !important;
+			border-collapse: collapse; /* To ensure borders collapse properly */
+		}
+		
+		.TopNav th {
+			border-color: blue !important;
+			border-right-style: solid;
+			border-left-style: none;
+			padding-right: 10px;
+		}
+	}
 
