@@ -53,7 +53,7 @@ html {
         font-family: "Times New Roman";
     }
 
-	@media screen and (max-width: 500px){
+	@media only screen and (max-width: 500px){
 		.banner {
 			background-image: url("photos/Banner1.png");
 			background-repeat: no-repeat;
